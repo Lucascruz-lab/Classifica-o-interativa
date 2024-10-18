@@ -19,6 +19,8 @@
     margin: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;      /* Centraliza verticalmente */
+    height: 100vh;       
  }
 
 
@@ -34,9 +36,70 @@
 
 
 img {
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsl(213, 16%, 22%);
     padding: 5px;
     border-radius: 50%;
+    width: 35px;
+    height: 35px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
+h1 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+ul li {
+    background-color: hsl(214, 17%, 28%);
+    padding: 10px;;
+    width: 40px;              /* Define uma largura fixa */
+    height: 40px;             /* Define uma altura fixa */
+    border-radius: 50%;       /* Arredonda as bordas para fazer o círculo */
+    display: flex;            /* Usa flexbox para centralizar o conteúdo */
+    justify-content: center;  /* Centraliza horizontalmente o número */
+    align-items: center;      /* Centraliza verticalmente o número */
+    color: hsl(217, 12%, 63%);             /* Define a cor do texto */
+    cursor: pointer;          /* Adiciona um ponteiro de cursor ao passar por cima */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+li:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(214, 17%, 28%);
+}
+
+li.active {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(214, 17%, 28%);    
+}
+
+button {
+    margin-top: 15px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(216, 12%, 8%);
+}
