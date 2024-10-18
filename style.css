@@ -17,12 +17,26 @@
     color: hsl(0, 0%, 100%);
     padding: 10px;
     margin: 10px;
+    display: flex;
+    justify-content: center;
  }
+
+
+ 
+#container {
+    background: hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
 
 
 img {
     background-color: hsl(213, 19%, 18%);
     padding: 5px;
     border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
