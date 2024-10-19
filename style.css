@@ -41,7 +41,7 @@ img {
     border-radius: 50%;
     width: 35px;
     height: 35px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    
 }
 
 h1 {
@@ -54,7 +54,7 @@ p {
     color: hsl(217, 12%, 63%);
 }
 
-ul {
+#button-list {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -62,7 +62,7 @@ ul {
     margin-top: 15px;
 }
 
-ul li {
+.rating-button {
     background-color: hsl(214, 17%, 28%);
     padding: 10px;;
     width: 40px;              /* Define uma largura fixa */
@@ -74,19 +74,20 @@ ul li {
     color: hsl(217, 12%, 63%);             /* Define a cor do texto */
     cursor: pointer;          /* Adiciona um ponteiro de cursor ao passar por cima */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    border: none;
 }
 
-li:hover {
+.rating-button:hover {
     background-color: hsl(25, 97%, 53%);
     color: hsl(214, 17%, 28%);
 }
 
-li.active {
+.rating-button.active {
     background-color: hsl(0, 0%, 100%);
     color: hsl(214, 17%, 28%);    
 }
 
-button {
+#btn {
     margin-top: 15px;
     background-color: hsl(25, 97%, 53%);
     color: hsl(216, 12%, 8%);
@@ -99,7 +100,41 @@ button {
     text-transform: uppercase;
 }
 
-button:hover {
+#btn:hover {
     background-color: hsl(0, 0%, 100%);
     color: hsl(216, 12%, 8%);
+}
+
+.thank-you {
+    text-align: center;
+}
+
+.thank-you img {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    background-color: transparent;
+    
+}
+
+.selected-rating {
+    background-color: hsl(214, 17%, 28%);
+    color: hsl(25, 97%, 53%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+p.selected-rating {
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.thank-you p {
+    color: hsl(217, 12%, 63%);
 }
