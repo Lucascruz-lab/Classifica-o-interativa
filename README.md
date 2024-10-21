@@ -33,8 +33,8 @@ Adicione um screenshot aqui para mostrar como ficou o projeto visualmente.
 
 ### Links
 
-- URL da solução: [Adicionar URL aqui](#)
-- URL do site ao vivo: [Adicionar URL aqui](#)
+- URL da solução: [https://github.com/Lucascruz-lab/Classifica-o-interativa](#)
+- URL do site ao vivo: [https://lucascruz-lab.github.io/Classifica-o-interativa/](#)
 
 ## Meu Processo
 
