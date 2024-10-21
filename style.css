@@ -75,6 +75,7 @@ p {
     cursor: pointer;          /* Adiciona um ponteiro de cursor ao passar por cima */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     border: none;
+    transition: backgound-color 0.3s ease, color 0.3s ease;
 }
 
 .rating-button:hover {
@@ -137,4 +138,55 @@ p.selected-rating {
 
 .thank-you p {
     color: hsl(217, 12%, 63%);
+}
+
+/* Para dispositivos com largura máxima de 768px (tablets e celulares) */
+@media (max-width: 768px) {
+    #container {
+        max-width: 90%;  /* Aumenta a largura para ocupar mais espaço da tela */
+        padding: 15px;   /* Ajusta o padding */
+    }
+
+    h1 {
+        font-size: 22px;  /* Reduz o tamanho da fonte para caber em telas menores */
+    }
+
+    p {
+        font-size: 14px;  /* Diminui o texto descritivo */
+    }
+
+    .rating-button {
+        width: 35px;  /* Diminui os botões */
+        height: 35px;
+    }
+
+    #btn {
+        height: 35px;  /* Ajusta a altura do botão de envio */
+        font-size: 13px;  /* Reduz o tamanho da fonte */
+    }
+}
+
+/* Para dispositivos com largura máxima de 480px (celulares menores) */
+@media (max-width: 480px) {
+    #container {
+        max-width: 100%;  /* O container ocupa quase toda a largura da tela */
+    }
+
+    h1 {
+        font-size: 18px;  /* Reduz ainda mais o tamanho do título */
+    }
+
+    p {
+        font-size: 12px;  /* Reduz o tamanho da fonte dos parágrafos */
+    }
+
+    .rating-button {
+        width: 30px;  /* Diminui os botões para caber em telas muito pequenas */
+        height: 30px;
+    }
+
+    #btn {
+        height: 30px;  /* Ajusta a altura do botão de envio */
+        font-size: 12px;  /* Diminui o texto do botão */
+    }
 }

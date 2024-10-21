@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll('#button-list button'); // Seleciona todos os botões
+const buttons = document.querySelectorAll('button-list button'); // Seleciona todos os botões
 const submitButton = document.getElementById('btn'); // Seleciona o botão de envio
 let selectedRating = null; // Inicializa uma variável para armazenar a classificação selecionada
 

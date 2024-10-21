@@ -1,113 +1,73 @@
-# Frontend Mentor - Interactive rating component solution
+# Frontend Mentor - Interactive Rating Component Solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta é a solução para o desafio de componente de classificação interativa do [Frontend Mentor](https://www.frontendmentor.io). Os desafios do Frontend Mentor ajudam a melhorar suas habilidades de codificação construindo projetos realistas.
 
-## Table of contents
+## Índice
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+- [Visão Geral](#visão-geral)
+  - [O Desafio](#o-desafio)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Meu Processo](#meu-processo)
+  - [Construído com](#construído-com)
+  - [O que aprendi](#o-que-aprendi)
+  - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
+  - [Recursos úteis](#recursos-úteis)
+- [Autor](#autor)
+- [Agradecimentos](#agradecimentos)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+## Visão Geral
 
-## Overview
+### O Desafio
 
-### The challenge
+Os usuários devem ser capazes de:
 
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+- Ver o layout otimizado do app dependendo do tamanho da tela do dispositivo
+- Ver os estados de hover para todos os elementos interativos da página
+- Selecionar e enviar uma classificação numérica
+- Ver o estado da tela de agradecimento após o envio da classificação
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+Adicione um screenshot aqui para mostrar como ficou o projeto visualmente.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- URL da solução: [Adicionar URL aqui](#)
+- URL do site ao vivo: [Adicionar URL aqui](#)
 
-## My process
+## Meu Processo
 
-### Built with
+### Construído com
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Marcação **HTML5** semântica
+- Propriedades personalizadas de **CSS**
+- **Flexbox**
+- **Workflow Mobile-first**
+- **JavaScript Vanilla**
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### O que aprendi
 
-### What I learned
+Durante o desenvolvimento deste projeto, aprendi bastante sobre a manipulação do DOM com JavaScript para tornar o componente interativo. Além disso, reforcei a importância de usar Flexbox para centralizar elementos e como aplicar **media queries** para garantir que o design seja responsivo em diferentes dispositivos.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Desenvolvimento contínuo
+Quero continuar aprimorando minhas habilidades em JavaScript, especialmente na manipulação do DOM e na criação de interações mais complexas. Também pretendo focar mais em acessibilidade para garantir que todos os meus projetos sejam inclusivos.
 
-To see how you can add code snippets, see below:
+### Desenvolvimento contínuo
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Quero continuar aprimorando minhas habilidades em JavaScript, especialmente na manipulação do DOM e criação de interações mais complexas. Também pretendo focar mais em acessibilidade para garantir que todos os meus projetos sejam inclusivos.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+### Recursos úteis
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- [MDN Web Docs - Flexbox](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) - Este artigo me ajudou a entender melhor como alinhar e distribuir elementos com Flexbox.
+- [MDN Web Docs - Event Listener](https://developer.mozilla.org/pt-BR/docs/Web/API/EventListener) - Esta página foi essencial para me ajudar a adicionar e manipular eventos no JavaScript.
 
-### Continued development
+## Autor
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- Frontend Mentor - [@lucascruz](https://www.frontendmentor.io/profile/lucascruz)
+- LinkedIn - [Lucas Cruz](https://www.linkedin.com/in/lucas-cruz)
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+## Agradecimentos
 
-### Useful resources
+Gostaria de agradecer ao Frontend Mentor por disponibilizar desafios práticos como este, que me ajudam a evoluir constantemente como desenvolvedor. Este projeto me desafiou e me ensinou muito.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
