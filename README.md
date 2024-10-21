@@ -33,8 +33,8 @@ Adicione um screenshot aqui para mostrar como ficou o projeto visualmente.
 
 ### Links
 
-- URL da solução: [Adicionar URL aqui](#https://github.com/Lucascruz-lab/Classifica-o-interativa?tab=readme-ov-file)
-- URL do site ao vivo: [Adicionar URL aqui](#https://lucascruz-lab.github.io/Classifica-o-interativa/)
+- URL da solução: [Adicionar URL aqui](https://github.com/Lucascruz-lab/Classifica-o-interativa?tab=readme-ov-file)
+- URL do site ao vivo: [Adicionar URL aqui](https://lucascruz-lab.github.io/Classifica-o-interativa/)
 
 ## Meu Processo
 
